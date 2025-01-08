@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.logo {
+    font-size: 2rem;
+    color: azure;
+    font-weight: 600;
+}
+
+.nav-bar-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-links li {
+    margin: 0 5px;
+}
+
+.nav-bar-links li a {
+    color: beige;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar-links li a:hover,
+.nav-bar-links li a.active{
+    background-color: yellow;
+    color: black;
+}
+
+.profile {
+    height: 70vh;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.profile img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.profile .text-display {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.profile .text-display .btn-more {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+}
+
+.profile .text-display a:hover {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    border-style: solid;
+}
